@@ -1,6 +1,7 @@
 # 🎨 Image Binary 👾
 Encode and decode binary files into images 
 
+## About
 Every PNG pixel is represented by 4 channels: red, green, blue, and the alpha channel, which are represented by an 8-bits unsigned value.  
 The encode process, matches every binary byte, found in the binary file, into one of the core 3 channels (red, green and blue).
 The decode process, does the opposite: match every channel's value into a binary byte.
